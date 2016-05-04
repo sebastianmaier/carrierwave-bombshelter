@@ -41,7 +41,7 @@ module CarrierWave
     def check_image_type!(image)
       return if image.type && image_type_whitelist.include?(image.type)
       raise CarrierWave::IntegrityError,
-            I18n.translate(:'errors.messages.unsupported_image_type', image.type)
+            I18n.translate(:'errors.messages.unsupported_image_type', image_type: image.type)
     end
 
     def check_pixel_dimensions!(image)
