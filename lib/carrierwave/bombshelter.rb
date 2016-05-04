@@ -27,7 +27,7 @@ module CarrierWave
     end
 
     def image_type_whitelist
-      %i(jpeg png gif)
+      %w(jpeg png gif)
     end
 
     private
