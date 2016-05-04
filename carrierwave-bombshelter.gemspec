@@ -5,7 +5,7 @@ require 'carrierwave/bombshelter/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'carrierwave-bombshelter'
-  spec.version       = CarrierWave::BombShelter::VERSION
+  spec.version       = '0.0.2smo'
   spec.authors       = ['DarthSim']
   spec.email         = ['darthsim@gmail.com']
 
