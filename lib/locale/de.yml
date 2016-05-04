@@ -2,4 +2,4 @@ de:
   errors:
     messages:
       pixel_dimensions_error: "Die Bildgröße sollte kleiner gleich %{x_size}x%{y_size} sein"
-      unsupported_image_type: "Das Bild hat ein nicht unterstütztes Format"
+      unsupported_image_type: "Das Bild hat ein nicht unterstütztes Format: %{image_type}"
